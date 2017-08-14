@@ -1,3 +1,6 @@
+
+global.Buffer = global.Buffer || require("buffer").Buffer;
+
 const Web3 = require('web3');
 
 if (typeof web3 !== 'undefined') {
